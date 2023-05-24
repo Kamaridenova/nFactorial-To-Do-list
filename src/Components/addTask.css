@@ -1,0 +1,61 @@
+.container-addTask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonPlus{
+    display: flex;
+    flex: column;
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    align-self: start;
+    justify-content: center;
+}
+.plusInsideButton{
+    display: flex;
+    flex: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 25px; 
+    font-weight: bold; 
+    align-self: center;
+    justify-content: center; 
+}
+.modalAddTask{
+    display: flex;
+    flex-direction: column;
+    background-color: #E4E6E7;
+    width: 270px;
+    height: 220px; 
+    position: absolute;
+    right: 130px; 
+    top: 50px;
+    text-align: flex-start;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nameModalAddTask{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.textareaModal{
+    background-color: white;
+    height: 120px;
+    margin: 10px; 
+    border-radius: 5px;
+}
+.buttonModalAddTask{
+    display: flex;
+    /* flex: column; */
+    background-color: black;
+    color: white;
+    width: 76px;
+    height: 40px;
+    border-radius: 15px; 
+    justify-content: center;
+    align-items: center;
+}
